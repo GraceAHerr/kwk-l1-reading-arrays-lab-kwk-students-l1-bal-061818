@@ -38,9 +38,7 @@ end
 last_student_by_method
 
 def first_second_and_third_students
-  return STUDENT_NAMES[0]
-  return STUDENT_NAMES[1]
-  return STUDENT_NAMES[3]
+  return STUDENT_NAMES[0..2]
 end
 
 first_second_and_third_students
